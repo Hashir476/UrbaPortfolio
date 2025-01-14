@@ -1,0 +1,219 @@
+<html >
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212; 
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #0f0e0e;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 20px;
+        }
+
+        header h3 {
+            margin: 0;
+        }
+
+        header nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        header nav a:hover {
+            background-color: #e5622a;
+        }
+        
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        main h2 {
+            margin-bottom: 15px;
+            color: #efefef; 
+        }
+
+        main p {
+            margin-bottom: 15px;
+        }
+
+        .skills {
+            margin-top: 20px;
+            animation: fadeIn 2.0s ease-in;
+
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .skills div {
+            margin-bottom: 15px;
+        }
+
+        .skills label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .text{
+            animation: fadeIn 1.0s ease-in;
+
+        }
+        
+        .progress-bar {
+            background-color: #333333;
+            border-radius: 20px;
+            overflow: hidden;
+            height: 20px;
+        }
+
+        .progress {
+            height: 100%;
+            background-color: #ef6c00; 
+            width: 0%;
+            text-align: center;
+            line-height: 20px;
+            color: white;
+            font-weight: bold;
+            transition: width 0.5s;
+        }
+
+        .resume-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #43458b;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .resume-button:hover {
+            background-color: #6c6fb5;
+        }
+
+        .project {
+            margin-top: 30px;
+            border: 1px solid #333333;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #212121;
+        }
+
+        .project img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #212121;
+            color: #bdbdbd;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3>About me </h3>
+        <nav>
+            <a href="i242108_index.html">Home</a>
+            <a href="i242108_about.html">About</a>
+            <a href="i242108_myprojects.html">My Projects</a>
+            <a href="i242108_gallery.html">Gallery</a>
+            <a href="i242108_contact.html">Contact</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class = "text">
+            <h2>About Me</h2>
+        <p>
+            Hello! My name is Urba Kaleem, and I am currently pursuing a degree in Cyber Security from FAST NUCES Islamabad. My passion lies in protecting digital systems, exploring the vast world of technology, and expanding my knowledge in the ever-evolving field of programming.
+        </p>
+        <p>
+            I believe that learning to protect what we build is as important as creating it. My curiosity extends beyond coding, as I love exploring <li>Astrophotography</li> <li>Book Reading </li>  <li> Playing Badminton</li>
+        </p>
+        <p>
+            Over the years, I have developed a strong foundation in programming and problem-solving. I am proficient in several programming languages and constantly strive to improve my technical expertise. My hobbies include astrophotography, book reading, and badminton.
+        </p>
+        <h3>My Skills</h3>
+        </div>
+        
+        <div class="skills">
+            <div>
+                <label>C++</label>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 88%;">88%</div>
+                </div>
+            </div>
+            <div>
+                <label>Python</label>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;">85%</div>
+                </div>
+            </div>
+            <div>
+                <label>HTML</label>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;">80%</div>
+                </div>
+            </div>
+            <div>
+                <label>JavaScript</label>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;">75%</div>
+                </div>
+            </div>
+            <div>
+                <label>Cyber Security Concepts</label>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;">70%</div>
+                </div>
+            </div>
+        </div>
+        <a class="resume-button" href="/Users/kaleemqureshi/Downloads/Professional CV Resume (1).pdf" target="_blank" download>Download My Resume</a><br> <br>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Urba Kaleem. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<html>
+<head>
+    <title>Urba Kaleem Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #0f0e0e;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 20px;
+        }
+
+        header h3 {
+            margin: 0;
+        }
+
+        header nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        header nav a:hover {
+            background-color: #e5622a;
+        }
+
+        .hero {
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 10px auto;
+            padding: 20px;
+        }
+
+        .hero-text {
+            flex: 1;
+            padding: 10px;
+        }
+
+        .hero-text h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .hero-text p {
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+
+        .hero-text .action-buttons a {
+            display: inline-block;
+            margin-right: 10px;
+            padding: 10px 20px;
+            background-color: #e5622a;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .hero-text .action-buttons a:hover {
+            background-color: #ff7b4a;
+        }
+
+        .hero-graphic {
+            text-align: center;
+        }
+
+        .hero-graphic img {
+            max-width: 100%;
+            border-radius: 10px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #212121;
+            color: #bdbdbd;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h3>Urba Kaleem Portfolio</h3>
+        <nav>
+            <a href="i242108_index.html">Home</a>
+            <a href="i242108_about.html">About</a>
+            <a href="i242108_myprojects.html">My Projects</a>
+            <a href="i242108_gallery.html">Gallery</a>
+            <a href="i242108_contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Hi, I'm Urba Kaleem</h1>
+            <p>
+                I am a Cybersecurity enthusiast and Computer Science student at FAST University Islamabad. 
+                With a passion for building and protecting digital systems, I strive to create innovative solutions 
+                and safeguard them from threats.
+            </p>
+            <p>
+                I offer expertise in Python, C++, and Cybersecurity fundamentals. If you're looking for a skilled, 
+                ambitious, and creative professional to collaborate with, you're in the right place.
+            </p>
+            <div class="action-buttons">
+                <a href="i242108_contact.html">Contact Me</a>
+                <a href="i242108_myprojects.html">View My Projects</a>
+            </div>
+        </div>
+        <div class="hero-graphic">
+            <img src="/Users/kaleemqureshi/Downloads/Snapchat-216767295-1.jpg" height="400" width="400" alt="Hero Graphic">
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Urba Kaleem. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
